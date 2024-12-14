@@ -8,12 +8,14 @@
     <artifactId>SeleniumLearning</artifactId>
     <version>1.0-SNAPSHOT</version>
 <dependencies>
+
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
         <version>4.27.0</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
         <groupId>org.testng</groupId>
@@ -21,6 +23,7 @@
         <version>7.10.2</version>
         <scope>test</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
     <!-- Log4j2 SLF4J binding -->
     <dependency>
@@ -43,8 +46,5 @@
         <version>2.23.1</version> <!-- Use the same version as your log4j-core -->
     </dependency>
 
-
-
 </dependencies>
-
 </project>
